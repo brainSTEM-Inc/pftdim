@@ -111,7 +111,7 @@ def run_random_simulator(num_trials=1000):
             print(f"[{trial}/{num_trials}] trials completed securely...")
            
     elapsed = time.time() - start_time
-    print("-" * 65)
+    print("-" * 67)
    
     if mismatches == 0:
         print(f"SUCCESS")
